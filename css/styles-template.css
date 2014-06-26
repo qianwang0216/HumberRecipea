@@ -1,0 +1,275 @@
+@charset "utf-8";
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+        CSS RESET
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}	
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* - - - - - - - - - end reset - - - - - - - - - */
+
+
+/* - - - - - - - - -  PAGE - WIDE - - - - - - - - - */
+
+html 
+{
+    width:100%;
+    height:100%;
+    box-sizing:border-box;  
+}
+
+.wrapper 
+{
+    background-color: #fffcd5;
+}
+
+.container  /*wraps the whole page. Text will have a dark brown colour.*/
+{
+    margin:5% 3%;
+    color: #491313;
+    font-family: ebrima-regular-font, 'Trebuchet MS', Verdana, Arial, sans-serif;
+    /*border: 10px solid #bead93;*/
+}
+
+body {   /*The default font size is 10px, which is easy to change into em's.*/
+    font-size: 10px;
+    color: #491313;
+}
+
+a 
+{
+    color: #ff6600;
+
+    text-decoration: none; 
+}
+
+a:hover
+{
+    text-decoration: underline;    
+}
+
+p 
+{
+    line-height: 1.5rem;
+}
+
+/* - - - - - - - - -  MAIN LAYOUT - - - - - - - - - */
+
+/*The page is a three-column layout, where the columns float left.*/
+.left-body, .centre-body, .right-body {    
+    float:left;
+}
+
+/*(I tried to make the site somewhat responsive, but I need to learn more about fluid layouts...there is much to learn in little time.)*/
+.left-body {
+    width:17%; /*176px/1024px*/   
+}
+
+/*The centre column has left and right borders, to visually divide the columns.*/
+.centre-body {
+    border-left: 1px solid #491313;
+    border-right: 1px solid #491313;    
+    width:50%; /*410px/1024px*/
+    height:82.8%;
+    padding: 4.2% 5.1% 6.8% 6.8%;
+}
+
+.right-body {
+    width:13%; /*219px/1024px*/
+    padding: 4.2% 5.1% 4.2% 2.5%;  
+}
+
+/* - - - - - - - - - OTHER LAYOUT STYLES - - - - - - - - - */
+
+/*Clears the float on both left and right sides*/
+.clear 
+{
+    clear:both;
+}
+
+/*A left indent*/
+.indent1 {
+    padding-left: 20.7%;
+    padding-bottom: 11.3%;
+}
+
+/*to float left*/
+.float-left 
+{
+    float:left;
+}
+
+/*to float right*/
+.float-right
+{
+    float:right;
+}
+
+.space
+{
+    margin: 2%;    
+}
+
+/* - - - - - - - - - HEADINGS - - - - - - - - - */
+
+/*This is used to make headings not visible in the browser, but will be used for the document outline or when CSS is disabled.*/
+.invisible {
+    display:none;
+}
+
+/*For text that would have a size of 24px*/
+.heading-l {
+    font-size: 2.4em;
+}
+
+/*For text that would have a size of 18px*/
+.heading-m {
+    font-size: 1.8em;
+}
+
+/*For text that would have a size of 14px*/
+.heading-sm {
+    font-size: 1.4em;
+}
+
+/*For text that would have a size of 40px*/
+.heading-xl {
+    font-size:4.0em;
+}
+
+/* - - - - - - - - - TEXT STYLES - - - - - - - - - */
+
+/*To make text bold*/
+.bold {
+    font-weight:bold;
+}
+
+/*to align text in the center*/
+.centre-align {
+    text-align:center;
+}
+
+/*to underline text*/
+.underline {
+    text-decoration:underline;
+}
+
+/*for text in the book antiqua font (homepage > centre body - at the bottom)*/
+.font-book-antiqua {
+    font-family:'book-antiqua-regular-font';
+}
+
+/*the link buttons for library material categories (left body. eg. books, magazines...)*/
+.font-trajan-pro {
+    font-family:'trajan-pro-regular-font';
+}
+
+/*the font family for most of the text on the web site*/
+@font-face
+{
+    font-family: ebrima-regular-font;
+    src: url('../fonts/ebrima.ttf'); 
+}
+
+/*used for the link buttons in the left body (not the main navigation link buttons)*/
+@font-face
+{
+    font-family: trajan-pro-regular-font;
+    src: url('../fonts/TrajanPro-Regular.otf'); 
+}
+
+/*used for the message at the bottom of the centre body on the homepage*/
+@font-face
+{
+    font-family: book-antiqua-regular-font;
+    src: url('../fonts/ANTQUAB.TTF'); 
+}
+
+/* - - - - - - - - - IMAGES - - - - - - - - - */
+
+/*for any image that has a small size*/     
+.img-small
+{
+    width:40%;
+    padding: 1% 1% 5% 5%;
+    /*position:relative;
+    top:-100px;*/    
+
+}
+
+/*--- ATTRIBUTION ---*/
+
+/*The small text for attributing an image. (If this were a real site, I would not use these kind of images, but pay for images and therefore not need to attribute them. But, since this is a student project...*/
+small a  
+{
+    color:#491313;
+    text-decoration:none;
+}
+
+/*When a link inside a small element (for attributing an image), the link will be underlined.*/
+small a:hover 
+{
+    text-decoration:underline;
+}
+/* - - - - - - - - - PAGE HEADER - - - - - - - - - */
+
+
+
+
+
+/* - - - - - - - - - LEFT BODY - - - - - - - - - */
+
+
+
+/* - - - - - - - - - CENTRE BODY - - - - - - - - - */
+
+
+
+/* - - - - - - - - - RIGHT BODY - - - - - - - - - */
+
+
+
+/* - - - - - - - - - PAGE FOOTER - - - - - - - - - */
+

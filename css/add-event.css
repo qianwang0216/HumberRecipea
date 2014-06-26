@@ -1,0 +1,9 @@
+/*
+ADD EVENT PAGE STYLESHEET
+*/
+
+.monthDaysTable table tbody tr td
+{
+    padding-right: 2%;
+}
+

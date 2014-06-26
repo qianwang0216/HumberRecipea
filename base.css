@@ -1,0 +1,126 @@
+TD {
+	FONT-SIZE: 9pt; LINE-HEIGHT: 1.5; FONT-FAMILY: "宋体"
+}
+BODY {
+	FONT-SIZE: 9pt; SCROLLBAR-SHADOW-COLOR: #6994c2; LINE-HEIGHT: 1.5; SCROLLBAR-ARROW-COLOR: #ffffff; FONT-FAMILY: "宋体"; SCROLLBAR-BASE-COLOR: #8cc1fe
+}
+FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H4 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H5 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H6 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+OL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+UL {
+	LIST-STYLE-TYPE: none
+}
+LI {
+	LIST-STYLE-TYPE: none
+}
+A:link {
+	FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: red; FONT-FAMILY: "宋体"
+}
+INPUT {
+	BORDER-RIGHT: #9ad240 1px solid; BORDER-TOP: #9ad240 1px solid; FONT: 12px 宋体; BORDER-LEFT: #9ad240 1px solid; BORDER-BOTTOM: #9ad240 1px solid
+}
+INPUT[type='button'] {
+	BORDER-RIGHT: #9ad240 1px solid; BORDER-TOP: #9ad240 1px solid; FONT: 12px 宋体; BORDER-LEFT: #9ad240 1px solid; BORDER-BOTTOM: #9ad240 1px solid; BACKGROUND-COLOR: #eff6b6
+}
+INPUT[type='image'] {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.nbt {
+	BORDER-RIGHT: #9ad240 3px double; PADDING-RIGHT: 3px; BORDER-TOP: #9ad240 3px double; PADDING-LEFT: 3px; BACKGROUND: #eff6b6; MARGIN-BOTTOM: 1px; PADDING-BOTTOM: 0px; FONT: 12px 宋体; VERTICAL-ALIGN: middle; BORDER-LEFT: #9ad240 3px double; PADDING-TOP: 1px; BORDER-BOTTOM: #9ad240 3px double; HEIGHT: 21px
+}
+.htable {
+	BORDER-BOTTOM: #95d2f0 1px solid
+}
+.np {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.linerow {
+	BORDER-BOTTOM: #acacac 1px solid
+}
+.coolbg {
+	BORDER-RIGHT: #548fcb 2px solid; PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; PADDING-TOP: 1px; BORDER-BOTTOM: #548fcb 2px solid; BACKGROUND-COLOR: #b5e8fb
+}
+.coolbg2 {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; HEIGHT: 18px; BACKGROUND-COLOR: #dfddd2
+}
+.bline {
+	BORDER-BOTTOM: #95d2f0 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.bline2 {
+	BORDER-BOTTOM: #bcbcbc 1px solid
+}
+.coolbt {
+	BORDER-RIGHT: #acacac 2px solid; BORDER-TOP: #efefef 2px solid; BORDER-LEFT: #efefef 2px solid; BORDER-BOTTOM: #acacac 2px solid; BACKGROUND-COLOR: #e4f7d7
+}
+.coolbg3 {
+	BORDER-RIGHT: #bdc5b4 1px solid; BORDER-TOP: #bdc5b4 1px solid; BORDER-LEFT: #bdc5b4 1px solid; WIDTH: 140px; BORDER-BOTTOM: #bdc5b4 1px solid; HEIGHT: 20px; BACKGROUND-COLOR: #dfddd2; TEXT-ALIGN: right
+}
+.coolbg4 {
+	WIDTH: 190px; BORDER-BOTTOM: #c9cfc1 1px solid; HEIGHT: 20px; BACKGROUND-COLOR: #edebe5; TEXT-ALIGN: right
+}
+.coolbg5 {
+	BORDER-TOP: #bdc5b4 1px solid; FONT-SIZE: 1pt; WIDTH: 190px; HEIGHT: 6px; BACKGROUND-COLOR: #edebe5
+}
+.dlg {
+	BORDER-RIGHT: #b6c0b7 2px solid; BORDER-TOP: #b6c0b7 2px solid; PADDING-LEFT: 4px; BORDER-LEFT: #b6c0b7 2px solid; WIDTH: 200px; PADDING-TOP: 2px; BORDER-BOTTOM: #b6c0b7 2px solid; BACKGROUND-COLOR: #f0faeb
+}
+#_mysource {
+	Z-INDEX: 5000
+}
+#_mywriter {
+	Z-INDEX: 6000
+}
+.option1 {
+	BACKGROUND-COLOR: #dceca6
+}
+.option2 {
+	BACKGROUND-COLOR: #f7fbd2
+}
+.option3 {
+	BACKGROUND-COLOR: #ffffff
+}
+.ininput {
+	BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; WIDTH: 96%; BORDER-BOTTOM: #ffffff 1px solid; HEIGHT: 20px
+}
+.fl {
+	FLOAT: left; MARGIN-RIGHT: 6px
+}

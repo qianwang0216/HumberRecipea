@@ -1,0 +1,337 @@
+/*@charset "utf-8";
+
+ http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+	CSS RESET
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+a { 
+	overflow: hidden; 
+	text-decoration:none;
+}
+a:link {
+	text-decoration:none;
+	color:#000;
+}
+ HTML5 display-role reset for older browsers 
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}	
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+--get rid of space-- 
+img {
+	vertical-align: bottom
+}
+ Reset input[type="search"] 
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+}
+input[type="search"]:focus {
+  outline-offset: -2px;
+}
+input[type="search"]::-webkit-search-decoration {
+  display: none;
+}
+
+ - - - - - - - - - end reset - - - - - - - - - 
+
+ - - - - - - - - - general setting - - - - - - - - - 
+body {
+        font-family: 'Esteban', serif;
+}*/
+
+/* - - - - - - - - - navigation setting - - - - - - - - - */
+
+aside {
+    margin: 15px 0 35px 50px;
+    width: 220px;
+    height: auto;
+    float: left;
+}
+
+#dairy, #fruits, #grains, #liquids, #protein, #vegetables {	
+	width: 220px;
+	height: 35px;
+        border: 1px solid #F7931E;
+	background: #FFFFFF;
+	float: left;
+	cursor: pointer;
+}
+
+#america, #africa, #europe, #asia, #australia  {	
+	width: 220px;
+	height: 35px;
+        border: 1px solid #F7931E;
+	background: #FFFFFF;
+	float: left;
+	cursor: pointer;
+}
+
+#dairy img, #fruits img, #grains img, #liquids img, #protein img, #vegetables img {
+    margin: 5px 0 0px 10px;
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+    float: left;   
+}
+
+#dairy label, #fruits label, #grains label, #liquids label, #protein label, #vegetables label {
+    cursor: pointer; 
+}
+
+#america label, #africa label, #europe label, #asia label, #australia label {
+    cursor: pointer; 
+}
+ 
+.navtitle {
+        margin: 10px;
+        font-family: Arial;
+        font-size: 13px;
+        font-weight: bold;
+        color: #F7931E;
+        float: left;
+}
+
+.dairyContent, .fruitsContent, .grainsContent, .liquidsContent, .proteinContent, .vegetablesContent {	
+	margin: 0px 5px 0px 5px;
+	width: 210px;
+	height: auto;    
+	border: 0;
+	overflow: hidden;
+	background-color: #fff;
+	border-top: 0 solid #FFF;
+	border-left: 1px dashed #DAB868;
+	border-right: 1px dashed #DAB868;
+	border-bottom: 1px dashed #DAB868;
+	float:left;
+	clear: both;
+	display: none;
+
+}
+
+.americaContent, .africaContent, .europeContent, .asiaContent, .australiaContent {	
+	margin: 0px 5px 0px 5px;
+	width: 210px;
+	height: auto;    
+	border: 0;
+	overflow: hidden;
+	background-color: #fff;
+	border-top: 0 solid #FFF;
+	border-left: 1px dashed #DAB868;
+	border-right: 1px dashed #DAB868;
+	border-bottom: 1px dashed #DAB868;
+	float:left;
+	clear: both;
+	display: none;
+
+}
+
+.block_recipe {
+	width: 180px;
+	margin: 10px 0px 3px 5px;
+	float: left;
+	clear: both;
+}
+
+.block_country {
+	width: 180px;
+	margin: 10px 0px 3px 5px;
+	float: left;
+	clear: both;
+}
+
+.img_menu{
+	margin: 20px 10px 20px 15px;
+	width: 60px;
+	height: 60px;
+	float: left;
+}
+
+.recipe {
+	margin: 30px 0 30px 5px;
+	height: 70px;
+	float: left;
+}
+
+.country {
+	margin: 30px 0 30px 5px;
+	height: 70px;
+	float: left;
+}
+
+.headerContent {
+	margin: 20px 20px 20px 40px;
+	padding: 20px 0 0 0;
+	clear: both;
+}
+
+.info {
+	width: 480px;
+	margin: 20px 20px 20px 210px;
+	padding: 10px 20px 10px 50px;
+	background-color: #D7C39A;
+	border: 1px dashed #FFF;
+	clear: both;
+}
+
+.ruNavHeader {
+    margin: 20px 0 2px 0;
+    border: 1px solid #F7931E;
+    border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    width: 220px;
+    height: 40px;
+    background-color: #F7931E;
+    color: #FFFFFF;
+    float: left;
+    clear: right;
+}
+
+.ruNavHeader img {
+    margin: 5px 10px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+
+.ruNavHeader label {
+    padding: 12px 0 0 10px;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    float: left;
+}
+
+.ruNavElements {
+    width: 220px;
+    height: 35px;
+    border: 1px solid #F7931E;
+    background: #FFFFFF;
+    float: left;
+}
+
+.ruNavElements img {
+    margin: 8px;
+    width: 20px;
+    height: 20px;
+    float: left;
+    
+}
+
+.ruNavElements label {
+    margin: 10px 5px;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: bold;
+    color: #F7931E;
+    float: left;
+    cursor: pointer;
+}
+
+.popUp_background {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 419px; 
+}
+
+.popUp_header {
+    border: 1px solid #F7931E; 
+    width: 419px;
+    height: 70px;
+    background: #F7931E;
+    position: relative;
+    top: 1px;
+    left: -419px;
+}
+
+.popUp_header img {
+    margin: 12px 0 0 12px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    float: left;
+}
+
+.popUp_header label {
+   padding: 12px 170px 0 10px;
+   font-size: 20px;
+   font-weight: bold; 
+   color: #FFFFFF;
+   font-weight: bold;
+   cursor: default;
+}
+
+.popUp_content {
+    border: 1px solid #F7931E; 
+    width: 419px;
+    height: 88.5%;
+    background: #FFFFFF;
+    position: relative;
+    top: 1px;
+    left: -419px;
+}
+
+.popUp_content label {
+   padding: 10px;
+   font-size: 16px;
+   font-weight: bold; 
+   color: #39B44A;
+   font-weight: bold;
+   cursor: default;
+}
+
+.img_closebtn {
+    cursor: pointer;
+}
+.floatNaviL{
+    float:left;
+    margin:5px;
+}

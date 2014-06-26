@@ -1,0 +1,35 @@
+/* WORLD MAP FEATURE - STYLESHEET */
+
+/*.searchDictionary {
+    float:none;
+    margin-right:15px;
+    margin-top:15px;
+    width:200px;
+    height:30px;
+    background-color:#F7931E;
+    color:#FFF;
+    border:0px;
+    font-size:16px;
+        vertical-align:-10%;
+}*/
+
+/*.searchTitle {
+    color:#999999;
+    font-size:20px;   
+}*/
+
+.category {
+    float:left;
+    margin-left:50px;
+    margin-right:50px;
+    margin-bottom:25px;
+    border-bottom:2px dotted #39B54A;
+    padding-bottom:35px;
+    width:70%;
+}
+
+/*.img-continent {
+    width:20%;
+    height:20%;
+}*/
+

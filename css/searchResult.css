@@ -1,0 +1,15 @@
+.searchContent {
+    color: #999;
+    float: left;
+}
+
+td a:link {
+    color: #39B44A;
+}
+td a:visited {
+    color: #491313;
+}
+td a:hover {
+    text-decoration: underline;
+    
+}

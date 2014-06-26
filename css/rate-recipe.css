@@ -1,0 +1,24 @@
+/*
+RATE A RECIPE STYLESHEET
+*/
+
+.stars {
+    position:relative;
+    font-size:2em;
+    color:#fdc;   
+    background-color: #fff;
+}
+
+.stars div {
+    display: block;
+    position:absolute;
+    overflow:hidden;
+    color:#f90;
+    top:-6px;
+    left:0px;
+}
+
+.rating {
+    color:#f90;
+    font-size:1.5em;
+}

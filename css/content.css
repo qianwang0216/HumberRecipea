@@ -1,0 +1,62 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 18, 2014, 6:50:53 PM
+    Author     : demi
+*/
+
+/* - - - - - - - - - CONTENT - - - - - - - - - */
+
+.main-content
+{
+    max-width: auto;
+    height: auto;
+    background-color: #fffcd5;
+    
+}
+
+.dotted-line-l
+{
+    max-width: 800px;
+}
+
+.slider-size /* master page - process slider */
+{
+    width: 818px;
+    height: 205px;
+    padding: 10px;    
+}
+
+.slider-img
+{
+    max-width: 250px;
+}
+
+.slider-arrow
+{
+    position: relative;
+    top:-80px;
+}
+
+.recipe-details-box-top-m
+{
+    width: 295px;
+    height: 35px;
+    -webkit-border-radius: 10px 10px;
+    -moz-border-radius: 10px 10px;
+    -o-border-radius: 10px 10px;
+    -border-radius: 10px 10px;
+}
+
+.recipe-details-box-bottom-m
+{
+    width: 295px;
+    height: 35px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    -border-radius: 10px;
+}

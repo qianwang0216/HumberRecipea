@@ -1,0 +1,325 @@
+@charset "utf-8";
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+	CSS RESET
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+a { 
+	overflow: hidden; 
+	text-decoration:none;
+}
+a:link {
+	text-decoration:none;
+	color:#000;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}	
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*--get rid of space-- */
+img {
+	vertical-align: bottom
+}
+/* Reset input[type="search"] */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+}
+input[type="search"]:focus {
+  outline-offset: -2px;
+}
+input[type="search"]::-webkit-search-decoration {
+  display: none;
+}
+
+/* - - - - - - - - - end reset - - - - - - - - - */
+
+body {
+        font-size: 16px;
+        line-height: 1.5;
+        font-family: 'Esteban', serif;
+}
+
+.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;
+	height:0;
+}
+.clearfix{
+	display:block;
+}
+
+.roundcorner {
+	/* Round Corner */
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+/* - - - - - - - - - header setting - - - - - - - - - */
+header {
+    width: 100%;
+}
+#headerTop {
+	height:100px;
+	background:#FFFFFF;
+	border-bottom:4px solid #39B54A;
+}
+img#logo {
+	float:left;
+	margin:0 15px 0 40px;
+}
+img#home {
+	float:left;
+	padding-top:10px;
+	padding-left:10px;
+}
+img#recipes {
+	float:left;
+	padding-top:10px;
+	padding-left:22px;
+}
+img#event {
+	float:left;
+	padding-top:10px;
+	padding-left:14px;
+}
+img#media {
+	float:left;
+	padding-top:10px;
+	padding-left:14px;
+}
+img#game {
+	float:left;
+	padding-top:10px;
+	padding-left:12px;
+}
+img#about {
+	float:left;
+	padding-top:10px;
+	padding-left:15px;
+}
+img#contact {
+	float:left;
+	padding-top:10px;
+	padding-left:25px;
+}
+.menutitle {
+	color: #39B54A;
+	padding-top:15px;
+	
+}
+#headerL {
+	padding-top:10px;
+}
+#headerL ul li {
+	float:left;
+	padding:10px;
+}
+#headerL ul li a{
+	float:right;
+}
+#headerR{
+	display:inline;
+	position:relative;
+}
+img#post {
+	float:right;
+	position:absolute;
+	right:355px;
+	top:30px;
+}
+img#lock {
+	float:right;
+	position:absolute;
+	top:20px;
+	right:40px;
+}
+#logout {
+	float:right;
+	width:140px;
+	height:40px;
+	color:#999999;
+	font-weight:bold;
+	font-size:16px;
+	text-align:left;
+	margin:20px 50px 0 25px;
+	padding-left:15px;
+	border:0px;
+	/* dropshadow */
+	-webkit-box-shadow: 4px 4px 10px 0px rgba(170, 170, 170, 0.75);
+	-moz-box-shadow: 4px 4px 10px 0px rgba(170, 170, 170, 0.75);
+	box-shadow: 4px 4px 10px 0px rgba(170, 170, 170, 0.75);
+}
+#linktohome {
+	float:right;
+	background-color:#F7931E;
+	width:180px;
+	height:40px;
+	font-size:16px;
+	color:#FFF;
+	font-weight:bold;
+	text-align:right;
+	margin:20px 0 0 25px;
+	padding-right:10px;
+	border:0px;
+	/* dropshadow */
+	-webkit-box-shadow: 4px 4px 10px 0px rgba(200, 100, 30, 0.75);
+	-moz-box-shadow: 4px 4px 10px 0px rgba(200, 100, 30, 0.75);
+	box-shadow: 4px 4px 10px 0px rgba(200, 100, 30, 0.75);
+}
+#welcome {
+	float:right;
+	margin-top:30px;
+	color:#F7931E;
+	font-size:18px;
+	font-weight:600;
+}
+
+/* - - leftsearch - -  */
+#leftSearch {
+	width:598px;
+	height:150px;
+	margin:50px 0 25px 50px;
+	float:left;
+	/*border:1px solid red;*/
+	padding:25px 25px;
+}
+#searchKeyword, #searchIngredient, #searchStyle {
+	width: 160px;
+	height: 30px;
+	padding-left:15px;
+	margin-left:15px;
+	
+}
+.gradientSeach {
+	/* GRADIENT */
+	background: #b2d236; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2IyZDIzNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzOWI1NGEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top, #b2d236 0%, #39b54a 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b2d236), color-stop(100%,#39b54a)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #b2d236 0%,#39b54a 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #b2d236 0%,#39b54a 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #b2d236 0%,#39b54a 100%); /* IE10+ */
+	background: linear-gradient(top bottom, #b2d236 0%,#39b54a 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b2d236', endColorstr='#39b54a',GradientType=0 );
+	/* Round Corner */
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+#searchRecipe {
+	width:100px;
+	height:30px;
+	background-color:#F7931E;
+	color:#FFF;
+	border:0px;
+	font-size:16px;
+}
+#searchTitle {
+	border-bottom:2px dotted #FFF;
+	padding:0 15px 5px 15px;
+}
+#searchTitle li {
+	float:left;
+	color:#FFF;
+	font-size:20px;
+}
+#recipeW {
+	vertical-align:text-top;
+	padding-left:5px;
+}
+#searchRecipe {
+	float:right;
+	margin-right:15px;
+	margin-top:15px;
+}
+#leftForm {
+	margin-top:10px;
+}
+
+/* - - rightsearch - -  */
+#rightSearch {
+	width:420px;
+	height:150px;
+	margin:50px 0 25px 50px;
+	float:left;
+	/*border:1px solid red;*/
+	padding:25px 25px;
+}
+#dictionaryW {
+	vertical-align:text-top;
+	padding-left:5px;
+}
+#searchTitleR {
+	border-bottom:2px dotted #FFF;
+	padding:0 15px 5px 15px;
+}
+#searchTitleR li {
+	float:left;
+	color:#FFF;
+	font-size:20px;
+}
+#rightForm {
+	margin-top:10px;
+}
+#dictonaryCountry, #dictionaryMenu {
+	width: 170px;
+	height: 30px;
+	padding-left:15px;
+	margin-left:15px;
+}
+#searchDictionary {
+	float:right;
+	margin-right:15px;
+	margin-top:15px;
+	width:100px;
+	height:30px;
+	background-color:#F7931E;
+	color:#FFF;
+	border:0px;
+	font-size:16px;
+	
+}

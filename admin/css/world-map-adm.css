@@ -1,0 +1,31 @@
+/*
+WORLD MAP - ADMIN STYLESHEET
+*/
+
+#insertbutton {
+    width:160px;
+    height:30px;
+    background-color:#F7931E;
+    color:#FFF;
+    font-weight:bold;
+    font-size:16px;
+    border:0px;
+    
+    float:right;
+    margin-top: 25px;
+    margin-right: 35px;
+    /* dropshadow */
+    -webkit-box-shadow: 4px 4px 10px 0px rgba(170, 170, 170, 0.75);
+    -moz-box-shadow: 4px 4px 10px 0px rgba(170, 170, 170, 0.75);
+    box-shadow: 4px 4px 10px 0px rgba(170, 170, 170, 0.75);
+}
+
+.margin-left-m
+{
+    margin-left: 15px;
+}
+
+.margin-right-l2
+{
+    margin-right: 50px;
+}

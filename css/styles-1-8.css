@@ -1,0 +1,486 @@
+@charset "utf-8";
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+        CSS RESET
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}	
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* - - - - - - - - - end reset - - - - - - - - - */
+
+/*==========================================================================================*/
+
+/* - - - - - - - - -  PAGE - WIDE - - - - - - - - - */
+
+html 
+{
+    width:100%;
+    height:100%;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;  
+}
+
+.wrapper 
+{
+    /*background-color: #fffcd5;*/
+}
+
+.container  /*wraps the whole page. Text will have a dark brown colour.*/
+{
+    padding:5% 3%;
+    color: #39b54a;
+    font-family: ebrima-regular-font, 'Trebuchet MS', Verdana, Arial, sans-serif;
+    /*border: 10px solid #bead93;*/
+}
+
+body {   /*The default font size is 10px, which is easy to change into em's.*/
+    font-size: 10px;
+    color: #39b54a;
+    font-family: ebrima-regular-font, 'Trebuchet MS', Verdana, Arial, sans-serif;
+}
+
+/*a 
+{
+    color: #ff6600;
+    text-decoration: none; 
+}*/
+
+a:hover
+{
+    text-decoration: underline;    
+}
+
+.red-border
+{
+    border:1px solid red;
+}
+
+.text-colour1
+{
+    color: #fff; /* white */
+}
+
+.text-colour-2
+{
+    color: #fb8e0d; /* orange */  
+}
+
+.text-colour-3
+{
+    color: #39b54a; /* green */
+}
+
+.background-colour1
+{
+    background-color: #f89321;  /*orange */
+}
+
+.rounded-frame-top
+{
+    width:216px;
+    height: 30px;
+    -webkit-border-radius: 10px 10px 0  0;
+    -moz-border-radius: 10px 10px 0  0;
+    -ms-border-radius: 10px 10px 0 0;
+    -o-border-radius: 10px 10px 0  0;
+    -border-radius: 10px 10px 0  0;
+}
+
+.rounded-frame-top-l
+{
+    width:457px;
+    height: 30px;
+    -webkit-border-radius: 10px 10px 0  0;
+    -moz-border-radius: 10px 10px 0  0;
+    -ms-border-radius: 10px 10px 0 0;
+    -o-border-radius: 10px 10px 0  0;
+    -border-radius: 10px 10px 0  0;
+}
+
+.rounded-frame-bottom
+{
+    width:216px;
+    height: 26px;
+    -webkit-border-radius: 0  0 10px 10px ;
+    -moz-border-radius: 0  0 10px 10px ;
+    -ms-border-radius: 0  0 10px 10px ;
+    -o-border-radius: 0  0 10px 10px ;
+    -border-radius: 0  0 10px 10px ;
+}
+
+.rounded-frame-bottom-l
+{
+    width:457px;
+    height: 26px;
+    -webkit-border-radius: 0  0 10px 10px ;
+    -moz-border-radius: 0  0 10px 10px ;
+    -ms-border-radius: 0  0 10px 10px ;
+    -o-border-radius: 0  0 10px 10px ;
+    -border-radius: 0  0 10px 10px ;
+}
+
+/*==========================================================================================*/
+
+/* - - - - - - - - - ELEMENTS - - - - - - - - - */
+
+.paragraph-m
+{
+    width: 195px;
+}
+
+/*==========================================================================================*/
+
+/* - - - - - - - - - LISTS - - - - - - - - - */
+
+.list-bullets li
+{
+    list-style-type:disc;
+    margin-bottom: 10px;
+}
+
+/*==========================================================================================*/
+
+/* - - - - - - - - - OTHER LAYOUT STYLES - - - - - - - - - */
+
+/*Clears the float on both left and right sides*/
+.clear 
+{
+    clear:both;
+}
+
+/*A left indent*/
+.indent1 {
+    padding-left: 20px;
+
+}
+
+.indent-s2 {
+    padding-left: 15px;
+
+}
+
+.padding-right-m
+{
+    padding-right: 50px;
+}
+
+/*to float left*/
+.float-left 
+{
+    float:left;
+}
+
+/*to float right*/
+.float-right
+{
+    float:right;
+}
+
+.space
+{
+    margin: 2%;    
+}
+
+.margin-left-m
+{
+    margin-left: 15px;
+}
+
+.margin-right-s
+{
+    margin-right: 10px;
+}
+
+.margin-right-m
+{
+    margin-right: 20px;
+}
+
+.margin-right-m2
+{
+    margin-right: 25px;
+}
+
+.margin-right-l
+{
+    margin-right: 45px;
+}
+
+.margin-right-xl
+{
+    margin-right: 65px;
+}
+
+.margin-top-s
+{
+    margin-top: 10px;
+}
+
+.margin-top-m
+{
+    margin-top: 20px;
+}
+
+.margin-top-m2
+{
+    margin-top: 25px;
+}
+
+.margin-top-m3
+{
+    margin-top: 30px;
+}
+
+.margin-bottom-none
+{
+    margin-bottom: 0;
+}
+
+.margin-bottom-s
+{
+    margin-bottom: 10px;
+}
+
+.margin-bottom-s2
+{
+    margin-bottom: 15px;
+}
+
+.margin-bottom-m
+{
+    margin-bottom: 25px;
+}
+
+.margin-bottom-xl
+{
+    margin-bottom: 60px;
+}
+
+.vertical-align-frame-text
+{
+    vertical-align:-9px;
+}
+
+.border-box
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.padding-m
+{
+    padding: 30px;
+}
+
+.display-inline
+{
+    display: inline;
+}
+
+/*==========================================================================================*/
+
+/* - - - - - - - - - HEADINGS - - - - - - - - - */
+
+/*This is used to make headings not visible in the browser, but will be used for the document outline or when CSS is disabled.*/
+.invisible {
+    display:none;
+}
+
+/*For text that would have a size of 40px*/
+.heading-xl {
+    font-size:4.0em;
+}
+
+/*For text that would have a size of 24px*/
+.heading-l {
+    font-size: 2.4em;
+}
+
+.heading-ml2
+{
+    font-size: 2.0em;
+}
+
+.heading-ml
+{
+    font-size: 1.8em;
+}
+
+/*For text that would have a size of 18px*/
+.heading-m {
+    font-size: 1.6em;
+}
+
+/*For text that would have a size of 14px*/
+.heading-sm {
+    font-size: 1.4em;
+}
+
+.heading-s {
+    font-size: 1.2em;
+}
+
+/*==========================================================================================*/
+
+/* - - - - - - - - - TEXT STYLES - - - - - - - - - */
+
+/*To make text bold*/
+.bold {
+    font-weight:bold;
+}
+
+.uppercase
+{
+    text-transform: uppercase;
+}
+
+/*to align text in the center*/
+.centre-align {
+    text-align:center;
+}
+
+/*to underline text*/
+.underline {
+    text-decoration:underline;
+}
+
+.line-height-m
+{
+    line-height: 1.5em;
+}
+
+.line-height-s
+{
+    line-height: 1.0em;
+}
+
+/*==========================================================================================*/
+
+/* - - - - - - - - - FONTS- - - - - - - - - */
+
+/*for text in the book antiqua font (homepage > centre body - at the bottom)*/
+.font-book-antiqua {
+    font-family:'book-antiqua-regular-font';
+}
+
+/*the link buttons for library material categories (left body. eg. books, magazines...)*/
+.font-trajan-pro {
+    font-family:'trajan-pro-regular-font';
+}
+
+/*the font family for most of the text on the web site*/
+@font-face
+{
+    font-family: ebrima-regular-font;
+    src: url('../fonts/ebrima.ttf'); 
+}
+
+/*used for the link buttons in the left body (not the main navigation link buttons)*/
+@font-face
+{
+    font-family: trajan-pro-regular-font;
+    src: url('../fonts/TrajanPro-Regular.otf'); 
+}
+
+/*used for the message at the bottom of the centre body on the homepage*/
+@font-face
+{
+    font-family: book-antiqua-regular-font;
+    src: url('../fonts/ANTQUAB.TTF'); 
+}
+
+/*==========================================================================================*/
+
+/* - - - - - - - - - IMAGES - - - - - - - - - */
+
+/*for any image that has a small size*/     
+.img-small
+{
+    width:40%;
+    padding: 1% 1% 5% 5%;
+    /*position:relative;
+    top:-100px;*/    
+
+}
+
+.icon1
+{
+    width: 40px;
+    text-align: center;
+    position: relative;
+    top: 9px;
+}
+
+/*==========================================================================================*/
+
+/*--- ATTRIBUTION ---*/
+
+/*The small text for attributing an image. (If this were a real site, I would not use these kind of images, but pay for images and therefore not need to attribute them. But, since this is a student project...*/
+small a  
+{
+    color:#491313;
+    text-decoration:none;
+}
+
+/*When a link inside a small element (for attributing an image), the link will be underlined.*/
+small a:hover 
+{
+    text-decoration:underline;
+}
+
+/*==========================================================================================*/
+
+/*--- GRADIENTS ---*/
+
+.vertical-down-gradient 
+{
+    background: yellowgreen; /* fallback colour */
+    background: linear-gradient(#b2d235, #3db649);    
+
+}
